@@ -15,7 +15,7 @@
             background: url('panasea.mp4') no-repeat center center fixed;
             background-size: cover;
             color: #fff;
-            font-family: 'Bungee', sans-serif; /* Menggunakan font Bungee untuk gaya punk */
+            font-family: Arial, sans-serif; /* Menggunakan font Arial atau sans-serif sebagai fallback */
         }
 
         .overlay {
@@ -39,8 +39,8 @@
         }
 
         h1 {
-            margin-bottom: 2rem;
-            font-size: 2.5rem;
+            margin-bottom: 1.5rem; /* Mengurangi margin bottom dari 2rem menjadi 1.5rem */
+            font-size: 2rem; /* Mengurangi ukuran font dari 2.5rem menjadi 2rem */
             font-weight: 600; /* Menambah ketebalan font */
             text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
         }
@@ -59,16 +59,17 @@
             background-color: rgba(255, 255, 255, 0.1); /* Warna latar belakang dengan opacity */
             border-radius: 0.5rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Efek shadow untuk data-item */
+            margin-bottom: 1rem; /* Menambah margin bottom */
         }
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.25rem; /* Mengurangi ukuran font dari 1.5rem menjadi 1.25rem */
             margin-bottom: 0.5rem;
             font-weight: 500; /* Menambah ketebalan font */
         }
 
         p {
-            font-size: 1.25rem;
+            font-size: 1rem; /* Mengurangi ukuran font dari 1.25rem menjadi 1rem */
             margin: 0;
         }
 
@@ -92,8 +93,7 @@
             object-fit: cover;
         }
     </style>
-    <!-- Menggunakan Google Fonts untuk font Bungee -->
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!-- Tidak menggunakan Google Fonts -->
     <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-database-compat.js"></script>
     <script>
